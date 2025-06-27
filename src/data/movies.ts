@@ -160,12 +160,12 @@ export const movies: Movie[] = [
 ];
 
 // Custom content for specific rows
-const chinaMovies: Movie[] = [
+const boltMovies: Movie[] = [
   {
-    id: 'china-1',
-    title: 'AI Innovation in China',
-    description: 'Exploring China\'s rapid advancement in artificial intelligence and technology.',
-    genre: ['Technology', 'Documentary'],
+    id: 'bolt-1',
+    title: 'Building with Bolt.new',
+    description: 'Learn how to create amazing web applications with Bolt.new\'s AI-powered development platform.',
+    genre: ['Technology', 'Education'],
     year: 2024,
     rating: 'PG',
     duration: '1h 30m',
@@ -176,10 +176,10 @@ const chinaMovies: Movie[] = [
     likes: 1156
   },
   {
-    id: 'china-2',
-    title: 'Smart Cities Revolution',
-    description: 'How Chinese cities are becoming the smartest in the world.',
-    genre: ['Technology', 'Urban'],
+    id: 'bolt-2',
+    title: 'AI-Powered Development',
+    description: 'Discover the future of coding with AI assistance and automated development workflows.',
+    genre: ['Technology', 'AI'],
     year: 2024,
     rating: 'PG',
     duration: '1h 45m',
@@ -190,10 +190,10 @@ const chinaMovies: Movie[] = [
     likes: 987
   },
   {
-    id: 'china-3',
-    title: 'Digital Economy Growth',
-    description: 'The rise of China\'s digital economy and e-commerce platforms.',
-    genre: ['Business', 'Technology'],
+    id: 'bolt-3',
+    title: 'Full-Stack in Minutes',
+    description: 'From idea to deployment: building complete applications in record time.',
+    genre: ['Technology', 'Tutorial'],
     year: 2024,
     rating: 'PG',
     duration: '2h 0m',
@@ -205,12 +205,12 @@ const chinaMovies: Movie[] = [
   }
 ];
 
-const germanyMovies: Movie[] = [
+const expoMovies: Movie[] = [
   {
-    id: 'germany-1',
-    title: 'German Engineering Excellence',
-    description: 'The precision and innovation behind German engineering.',
-    genre: ['Engineering', 'Documentary'],
+    id: 'expo-1',
+    title: 'React Native with Expo',
+    description: 'Build cross-platform mobile apps with React Native and Expo\'s powerful toolchain.',
+    genre: ['Mobile', 'Development'],
     year: 2024,
     rating: 'PG',
     duration: '1h 40m',
@@ -221,10 +221,10 @@ const germanyMovies: Movie[] = [
     likes: 745
   },
   {
-    id: 'germany-2',
-    title: 'Industry 4.0 Revolution',
-    description: 'How Germany is leading the fourth industrial revolution.',
-    genre: ['Industry', 'Technology'],
+    id: 'expo-2',
+    title: 'Mobile App Development',
+    description: 'From prototype to production: the complete mobile development workflow.',
+    genre: ['Mobile', 'Tutorial'],
     year: 2024,
     rating: 'PG',
     duration: '1h 55m',
@@ -235,10 +235,10 @@ const germanyMovies: Movie[] = [
     likes: 892
   },
   {
-    id: 'germany-3',
-    title: 'Sustainable Innovation',
-    description: 'Germany\'s commitment to renewable energy and sustainability.',
-    genre: ['Environment', 'Technology'],
+    id: 'expo-3',
+    title: 'Cross-Platform Excellence',
+    description: 'Write once, run everywhere: mastering cross-platform mobile development.',
+    genre: ['Mobile', 'Technology'],
     year: 2024,
     rating: 'PG',
     duration: '1h 50m',
@@ -250,12 +250,12 @@ const germanyMovies: Movie[] = [
   }
 ];
 
-const italyMovies: Movie[] = [
+const revenueCatMovies: Movie[] = [
   {
-    id: 'italy-1',
-    title: 'Italian Design Innovation',
-    description: 'The artistry and innovation of Italian design and craftsmanship.',
-    genre: ['Design', 'Culture'],
+    id: 'revenuecat-1',
+    title: 'Subscription Management',
+    description: 'Master in-app purchases and subscription management with RevenueCat.',
+    genre: ['Business', 'Development'],
     year: 2024,
     rating: 'PG',
     duration: '1h 35m',
@@ -266,10 +266,10 @@ const italyMovies: Movie[] = [
     likes: 567
   },
   {
-    id: 'italy-2',
-    title: 'Tech Startups in Milan',
-    description: 'The growing tech ecosystem in Italy\'s business capital.',
-    genre: ['Business', 'Technology'],
+    id: 'revenuecat-2',
+    title: 'Monetization Strategies',
+    description: 'Optimize your app\'s revenue with proven monetization strategies and analytics.',
+    genre: ['Business', 'Analytics'],
     year: 2024,
     rating: 'PG',
     duration: '1h 45m',
@@ -280,10 +280,10 @@ const italyMovies: Movie[] = [
     likes: 423
   },
   {
-    id: 'italy-3',
-    title: 'Digital Transformation',
-    description: 'How Italian companies are embracing digital innovation.',
-    genre: ['Business', 'Technology'],
+    id: 'revenuecat-3',
+    title: 'App Store Optimization',
+    description: 'Maximize your app\'s visibility and conversion rates in app stores.',
+    genre: ['Marketing', 'Business'],
     year: 2024,
     rating: 'PG',
     duration: '2h 0m',
@@ -295,12 +295,12 @@ const italyMovies: Movie[] = [
   }
 ];
 
-const japanMovies: Movie[] = [
+const tavusMovies: Movie[] = [
   {
-    id: 'japan-1',
-    title: 'Japanese Robotics',
-    description: 'Japan\'s pioneering work in robotics and automation.',
-    genre: ['Technology', 'Robotics'],
+    id: 'tavus-1',
+    title: 'AI Video Generation',
+    description: 'Create personalized videos at scale with Tavus\' AI-powered video platform.',
+    genre: ['AI', 'Video'],
     year: 2024,
     rating: 'PG',
     duration: '1h 50m',
@@ -311,10 +311,10 @@ const japanMovies: Movie[] = [
     likes: 1234
   },
   {
-    id: 'japan-2',
-    title: 'AI in Japanese Society',
-    description: 'How artificial intelligence is integrated into daily life in Japan.',
-    genre: ['Technology', 'Society'],
+    id: 'tavus-2',
+    title: 'Personalized Marketing',
+    description: 'Transform your marketing with AI-generated personalized video content.',
+    genre: ['Marketing', 'AI'],
     year: 2024,
     rating: 'PG',
     duration: '1h 40m',
@@ -328,24 +328,24 @@ const japanMovies: Movie[] = [
 
 export const contentRows: ContentRow[] = [
   {
-    id: 'china',
-    title: 'China',
-    movies: chinaMovies
+    id: 'bolt-new',
+    title: 'Bolt.new',
+    movies: boltMovies
   },
   {
-    id: 'germany', 
-    title: 'Germany',
-    movies: germanyMovies
+    id: 'expo', 
+    title: 'Expo',
+    movies: expoMovies
   },
   {
-    id: 'italy',
-    title: 'Italy', 
-    movies: italyMovies
+    id: 'revenuecat',
+    title: 'RevenueCat', 
+    movies: revenueCatMovies
   },
   {
-    id: 'japan',
-    title: 'Japan',
-    movies: japanMovies
+    id: 'tavus',
+    title: 'Tavus',
+    movies: tavusMovies
   },
   {
     id: 'most-liked',
